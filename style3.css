@@ -1,0 +1,32 @@
+body {
+      margin: 100px;
+      font-family: Arial, sans-serif;
+    }
+
+    
+    header, footer {
+      background: black;
+      height: 20px; 
+    }
+
+
+    .banner {
+      background: lightblue;
+      height: 100px;
+    }
+
+
+    .content {
+      display: flex;
+      min-height: 300px;
+    }
+
+    .sidebar {
+      background: #ddd;
+      flex: 1; 
+    }
+
+    .main {
+      background: #fff4cc;
+      flex: 2; 
+    }
